@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Abdel Ghani - CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Rubik", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .header p {
+            margin: 5px 0;
+        }
+
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .contact-info div {
+            font-size: 14px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section h2 {
+            background: #f2f2f2;
+            padding: 5px;
+            margin: 20px -40px 10px;
+            padding-left: 40px;
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .section p,
+        .section ul,
+        .section li {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section ul li {
+            margin-bottom: 10px;
+        }
+
+        .section ul li strong {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .links p,
+        .profile p,
+        .education p {
+            margin: 0;
+        }
+
+        .skills ul {
+            column-count: 2;
+            column-gap: 20px;
+        }
+
+        .links {
+            text-align: center;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #333;
+            font-size: 14px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        .employment-history ul {
+            list-style-type: circle;
+            padding-left: 15px;
+            font-display: "swap";
+        }
+
+        .skills ul li span {
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+         @media print {
+            @page {
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #fff;
+            }
+
+            .container {
+                box-shadow: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .header,
+            .contact-info,
+            .section h2 {
+                page-break-before: auto;
+                page-break-after: auto;
+                page-break-inside: avoid;
+            }
+
+            .header h1,
+            .header p,
+            .contact-info div,
+            .section h2 {
+                margin: 0;
+            }
+        }
+
+        @media print {
+            .no-print {
+                display: none;
+            }
+           
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="no-print text-center">
+        <a class="btn btn-success" onclick="window.print();">Print</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>Mohamed Abdel Ghani</h1>
+            <p>Backend Developer</p>
+            <p>Egypt , Cairo</p>
+        </div>
+        <div class="contact-info">
+            <div>01009624237</div>
+            <div>mohamedfrouh96@gmail.com</div>
+        </div>
+        <div class="contact-info">
+            <a href="https://www.linkedin.com/in/mohamedfrouh"> Linkedin </a>
+            <a href="https://github.com/mfrouh"> GitHub</a>
+        </div>
+        <div class="links section">
+            <h2>Projects - Links</h2>
+            <p>
+                <a href="https://www.treatab.com"> Treatab ( App & Website ) </a>
+                <a href="https://jak.sa.com"> Jak ( App & Website ) </a>
+                <a href="http://helpoo.app"> Helpoo App </a>
+                <a href="https://play.google.com/store/apps/details?id=com.entlq.talaacare"> Tala Care App </a>
+            </p>
+        </div>
+        <div class="profile section">
+            <h2>Profile</h2>
+            <p>Software Engineer with 3 years of experience specializing PHP and Laravel. Passionate about developing
+                innovative applications to improve organizational efficiency. Strong time management skills and ability
+                to prioritize tasks to meet tight deadlines. Familiar with agile methodologies and committed to staying
+                up-to-date with the latest technologies and trends. Striving for excellence in all endeavors.</p>
+        </div>
+        <div class="employment-history section">
+            <h2>Work Experience</h2>
+            <strong>Backend Developer at Entlq</strong> <strong style="float: inline-end;"> Feb 2022 — Present </strong>
+            <ul>
+                <li>Developed a RESTful API that allowed the app to integrate with backend services, resulting
+                    in enhanced user experience</li>
+                <li>Developed a RESTful API backend to enable mobile app integration with the web application
+                </li>
+                <li>Developed a RESTful API that served as the backend for a web application, improving
+                    scalability and reducing latency</li>
+            </ul>
+        </div>
+        <div class="education section">
+            <h2>Education</h2>
+            <strong>University of Mansoura</strong> <strong style="float: inline-end;"> Sep 2014 — Jun 2018 </strong>
+            <ul>
+                <li>
+                    <p>Bachelor of Computer Science</p>
+                </li>
+            </ul>
+        </div>
+        <div class="skills section">
+            <h2>Skills</h2>
+            <ul>
+                <li><span>Laravel</span> <span style="float: inline-end;"> Expert </span></li>
+                <li><span>Php</span> <span style="float: inline-end;">Expert </span></li>
+                <li><span>JavaScript</span> <span style="float: inline-end;">Expert </span></li>
+                <li><span>JQuery</span> <span style="float: inline-end;"> Expert </span></li>
+                <li><span>VueJs</span> <span style="float: inline-end;">Expert </span></li>
+                <li><span>Git</span> <span style="float: inline-end;"> Expert </span></li>
+                <li><span>Php Unit</span> <span style="float: inline-end;">Expert </span></li>
+                <li><span>Node Js </span> <span style="float: inline-end;">Beginner </span></li>
+                <li><span>Express.js </span> <span style="float: inline-end;">Beginner </span></li>
+                <li><span>MySQL </span> <span style="float: inline-end;">Expert </span></li>
+                <li><span>PostgreSQL </span> <span style="float: inline-end;"> Expert </span></li>
+                <li><span>Docker </span> <span style="float: inline-end;">Skillful </span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
